@@ -2,8 +2,10 @@
     --bg-clr-dark: #1F2937;
     --bg-clr-light: #FFF;
     --bg-clr-quote: #E5E7EB;
-    --clr-hero-title: #FFF;
-    --clr-hero-text: #E5E7EB;
+
+    --clr-light: #FFF;
+    --clr-darklight: #E5E7EB;
+    --clr-dark: #1F2937;
 
     --fs-regular: 1.125rem;
     --fs-logo: 1.5rem;
@@ -15,6 +17,23 @@
     --fw-light: 300;
 }
 
-#header {
-    background-color: --;
+#header, #hero, #info, #quote, #call {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+#header, #footer {
+    background-color: var(--bg-clr-dark);
+}
+
+#info {
+    background-color: var(--bg-clr-light);
+}
+
+#quote {
+    background-color: var(--bg-clr-quote);
+}
+
+#call {
+    background-color: var(--bg-clr-light);
 }
