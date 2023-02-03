@@ -17,12 +17,17 @@
     --fw-light: 300;
 }
 
-#header, #hero, #info, #quote, #call {
-    padding-left: 8rem;
-    padding-right: 8rem;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-#header, #footer {
+#header, #hero, #info, #quote, #call {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#header, #hero, #footer {
     background-color: var(--bg-clr-dark);
 }
 
@@ -36,4 +41,8 @@
 
 #call {
     background-color: var(--bg-clr-light);
+}
+
+#header {
+    display: flex;
 }
